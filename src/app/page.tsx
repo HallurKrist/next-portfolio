@@ -1,9 +1,13 @@
-import Header from "./components/header";
+import Header from "@/app/components/header";
+import Projects from "@/app/components/Projects";
+import Skills from "@/app/components/skills";
 
 export default function Home() {
   return (
     <div className="HomePage">
       <Header></Header>
+      <Projects></Projects>
+      <Skills></Skills>
     </div>
   );
 }

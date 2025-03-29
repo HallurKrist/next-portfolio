@@ -19,12 +19,12 @@ export default function Header() {
           Hallur Kristinn Hallsson
         </h1>
         <h2 className="text-2xl font-extralight mb-5 self-center">
-          Game/Software Developer
+          Game Programmer/Software Developer
         </h2>
         <h3
           className={`font-light text-sm self-center`}
         >
-          MSc of Games @ The IT University of Copenhagen
+          MSc of Games Student @ The IT University of Copenhagen
         </h3>
         <div
           className={`flex p-1 px-2 mb-4 items-center bg-white rounded-md mt-6 mx-auto `}
@@ -35,13 +35,12 @@ export default function Header() {
         </div>
       </div>
       <div className="flex flex-col justify-between">
-        <div className="hidden md:flex justify-around text-beige text-4xl">
+        <div className="hidden md:flex flex-col justify-around text-beige text-4xl">
           <a className="flex flex-row" href="https://github.com/HallurKrist">
             <IoLogoGithub className="size-10 hover:text-white duration-100 ease-in-out" />
             <p className="text-4xl px-2">Github</p>
           </a>
-          <p className="px-2">|</p>
-          <a className="flex flex-row" href="https://www.linkedin.com/in/hallur-kristinn-362568232/">
+          <a className="flex flex-row pt-5" href="https://www.linkedin.com/in/hallur-kristinn-362568232/">
             <FaLinkedin className="size-10 hover:text-white duration-100 ease-in-out" />
             <p className="text-4xl px-2">LinkedIn</p>
           </a>
