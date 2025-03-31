@@ -12,7 +12,6 @@ export default function Card(props: {
   tags: string[];
   link: string;
 }) {
-  const Picture = props.path;
   return (
     <>
       <Link
