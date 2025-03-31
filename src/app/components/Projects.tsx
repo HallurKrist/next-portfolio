@@ -1,4 +1,9 @@
 import Card from "@/app/components/card";
+import Wizards from "@/../public/Wizards.jpg";
+import Death from "@/../public/Death.png";
+import Frogs from "@/../public/FrogRush.gif";
+import Eco from "@/../public/ProjectEco.png";
+import Tetris from "@/../public/tetris.jpg";
 
 export default function Projects() {
   return (
@@ -9,7 +14,8 @@ export default function Projects() {
         </h1>
         <div className="flex flex-wrap gap-16 h-auto justify-start">
         <Card
-            path={"Wizards.jpg"}
+            path={"Wizards"}
+            ImageData={Wizards}
             title={"Unnamed Project"}
             description={
               "This final project for my MSc in Games is an ongoing exploration of game design methodologies through a cooperative 3D puzzle-platformer. We first created a design process based on existing literature, applied it to a prototype, and are now analyzing its effectiveness."
@@ -21,6 +27,7 @@ export default function Projects() {
           ></Card>
           <Card
             path="Death.png"
+            ImageData={Death}
             title="Soul Scyphon"
             description="As part of my MSc course 'Game World Design' I made a game in 9 person team centered around conveying a world different from our own."
             tags={["Gloomy", "Unity", "Side Scroller", "Agile"]}
@@ -28,6 +35,7 @@ export default function Projects() {
           ></Card>
           <Card
             path="FrogRush.gif"
+            ImageData={Frogs}
             title="Huge Frog Simulation"
             description="This final project for the 'High-Performance Game Programming' course, developed with two others, explores Unity’s DOTS framework by simulating numerous frog entities that jump and collide with a player-controlled car, allowing us to analyze performance bottlenecks in collision detection and physics."
             tags={["C#", "Unity", "DOTS", "ECS", "Performance"]}
@@ -35,6 +43,7 @@ export default function Projects() {
           ></Card>
           <Card
             path={"ProjectEco.png"}
+            ImageData={Eco}
             title={"Project Eco"}
             description={
               "This final project for the 'Making Games' course, developed with 5 others, explores collective action in the climate crisis through gameplay. The game’s antagonist—a corporation exploiting land and resources—pushes players to discuss and take action, framing the climate crisis as a sociopolitical issue rather than just an environmental one."
@@ -44,6 +53,7 @@ export default function Projects() {
           ></Card>
           <Card
             path="tetris.jpg"
+            ImageData={Tetris}
             title="Tetris Clone"
             description="As my first look into GameDevelopment I made a Tetris clone that admittedly did not stand the test of time and was made to run using 'Adobe Flash'."
             tags={["Javascript", "Html", "CSS", "Nostalgia", "First-Try"]}

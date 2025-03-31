@@ -1,17 +1,18 @@
 "use client";
 
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import { v4 as uuidv4 } from "uuid";
 
 export default function Card(props: {
   path: string;
+  ImageData: StaticImageData;
   title: string;
   description: string;
   tags: string[];
   link: string;
 }) {
-  const Picture = require("@/../public/" + props.path);
+  const Picture = props.path;
   return (
     <>
       <Link
@@ -19,8 +20,10 @@ export default function Card(props: {
         className="group relative rounded-xl overflow-hidden my-auto mx-auto"
       >
         <Image
-          src={Picture}
+          src={props.ImageData}
           alt=""
+          width={300}
+          height={350}
           style={{
             height: "300px",
             width: "350px",
