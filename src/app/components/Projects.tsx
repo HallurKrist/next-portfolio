@@ -8,6 +8,17 @@ export default function Projects() {
           Projects & Games
         </h1>
         <div className="flex flex-wrap gap-16 h-auto justify-start">
+        <Card
+            path={"Wizards.jpg"}
+            title={"Unnamed Project"}
+            description={
+              "This final project for my MSc in Games is an ongoing exploration of game design methodologies through a cooperative 3D puzzle-platformer. We first created a design process based on existing literature, applied it to a prototype, and are now analyzing its effectiveness."
+            }
+            tags={["Unity", "Design", "Solo-Programmer", "MSc-Project"]}
+            link={
+              "https://github.com/Mikool42/Thesis-2025/tree/main"
+            }
+          ></Card>
           <Card
             path="Death.png"
             title="Soul Scyphon"
@@ -17,39 +28,27 @@ export default function Projects() {
           ></Card>
           <Card
             path="FrogRush.gif"
-            title="Frog Rush"
-            description="Using the SimpleRenderEngine (SRE), I extended the engine with a game loop synced with a music track and matching the BPM of a song.
-            This was simulated in a rhythm game using Rick Astley's classic songs, with lanes containing nodes that the player needed to hit on time."
-            tags={["C++", "SDL", "SRE", "Rhythm", "Engine"]}
-            link="https://github.com/Nickromancer/GPRO_ExamProject/tree/main"
+            title="Huge Frog Simulation"
+            description="This final project for the 'High-Performance Game Programming' course, developed with two others, explores Unity’s DOTS framework by simulating numerous frog entities that jump and collide with a player-controlled car, allowing us to analyze performance bottlenecks in collision detection and physics."
+            tags={["C#", "Unity", "DOTS", "ECS", "Performance"]}
+            link="https://github.com/NickVanzo/HPGP-FrogsAndShrek"
           ></Card>
           <Card
-            path={"placeholder.jpg"}
+            path={"ProjectEco.png"}
             title={"Project Eco"}
             description={
-              "A game about a time long ago, where the Analogians lived in a world filled with love, affection and community. Find the Analogians, give them affection and restore love to their world."
+              "This final project for the 'Making Games' course, developed with 5 others, explores collective action in the climate crisis through gameplay. The game’s antagonist—a corporation exploiting land and resources—pushes players to discuss and take action, framing the climate crisis as a sociopolitical issue rather than just an environmental one."
             }
-            tags={["Unreal", "Nordic GameJam24'", "C++", "Figma"]}
-            link={"https://hounsvad.itch.io/analogians"}
+            tags={["Godot", "C#", "2D", "Procedural Content"]}
+            link={"https://github.com/MakingGamesFinalProject/GameProject"}
           ></Card>
           <Card
-            path="placeholder.jpg"
+            path="tetris.jpg"
             title="Tetris Clone"
-            description="Green-Up is an urban cooling tool that allows urban planners to simulate the temperature in cities based on what kind of elements are in the area, be it buildings or parks. "
-            tags={["React", "Scrum", "DevOps", "Docker", "Agile"]}
+            description="As my first look into GameDevelopment I made a Tetris clone that admittedly did not stand the test of time and was made to run using 'Adobe Flash'."
+            tags={["Javascript", "Html", "CSS", "Nostalgia", "First-Try"]}
             link={
-              "https://www.linkedin.com/feed/update/urn:li:activity:7089525611995545600/"
-            }
-          ></Card>
-          <Card
-            path={"placeholder.jpg"}
-            title={"Unnamed Project"}
-            description={
-              "My first attempt at Godot, the open-source game engine where I completed a small project using the engine's own langauge and conventions"
-            }
-            tags={["Godot", "GDScript", "Tutorial"]}
-            link={
-              "https://docs.godotengine.org/en/stable/getting_started/first_2d_game/index.html"
+              "./"
             }
           ></Card>
           <div className="group relative rounded-xl overflow-hidden my-auto mx-auto w-[350px]"></div>
