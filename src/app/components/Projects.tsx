@@ -22,7 +22,7 @@ export default function Projects() {
             }
             tags={["Unity", "Design", "Solo-Programmer", "MSc-Project"]}
             link={
-              "https://github.com/Mikool42/Thesis-2025/tree/main"
+              "./"
             }
           ></Card>
           <Card
@@ -39,7 +39,7 @@ export default function Projects() {
             title="Huge Frog Simulation"
             description="This final project for the 'High-Performance Game Programming' course, developed with two others, explores Unity’s DOTS framework by simulating numerous frog entities that jump and collide with a player-controlled car, allowing us to analyze performance bottlenecks in collision detection and physics."
             tags={["C#", "Unity", "DOTS", "ECS", "Performance"]}
-            link="https://github.com/NickVanzo/HPGP-FrogsAndShrek"
+            link="./"
           ></Card>
           <Card
             path={"ProjectEco.png"}
