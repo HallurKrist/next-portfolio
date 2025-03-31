@@ -1,6 +1,5 @@
 import Header from "@/app/components/header"
 import Image from "next/image";
-import Link from "next/link";
 import Placeholder from "@/../public/placeholder.jpg";
 
 export default function About() {

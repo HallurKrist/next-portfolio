@@ -1,8 +1,6 @@
 import Avatar from "@/app/components/avatar"
 import { IoLogoGithub } from "react-icons/io5";
 import { FaLinkedin } from "react-icons/fa";
-import { FaFacebookSquare } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 
 export default function Header() {
