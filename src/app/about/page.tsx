@@ -21,7 +21,11 @@ export default function About() {
         <div className="flex flex-col md:px-0 px-4">
           <h1 className=" text-4xl mb-5 font-bold ">Hello World! 👋🌍</h1>
           <p>
-            Write some stuff about me.
+          Passionate and skilled game developer completing a Master’s degree in Games (Technology Track) at IT
+University of Copenhagen, graduating in June 2025. Experienced in game programming, development
+tools, and QA methodologies. Strong problem-solving abilities and a collaborative mindset, with a keen
+eye for both software quality and player experience. Seeking a role as a game developer or tester to
+contribute technical expertise and analytical skills to innovative game projects.
           </p>
           <div
             className={`flex p-1 px-2 mb-4 bg-white rounded-md mt-6 mr-auto `}
