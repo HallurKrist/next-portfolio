@@ -1,6 +1,5 @@
 import Header from "@/app/components/header"
 import Image from "next/image";
-import Placeholder from "@/../public/placeholder.jpg";
 import hallur1 from "@/../public/HikingHallur.jpg";
 import hallur2 from "@/../public/RaaftingHallur.jpg";
 import hallur3 from "@/../public/TravelHallur.jpg";
