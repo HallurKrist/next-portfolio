@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Profile from "@/../public/hallur_hiking.jpg";
+import Link from "next/link";
 
 export default function Avatar(props: { collapsed: boolean }) {
   return (
     <>
       <div className="bg-white rounded-full overflow-auto border-solid border-2 border-orange hidden md:inline-block">
-        <a href="/">
+        <Link href={"/"}>
           <Image
             src={Profile}
             alt=""
@@ -15,7 +16,7 @@ export default function Avatar(props: { collapsed: boolean }) {
               props.collapsed ? "5" : "40"
             }`}
           ></Image>
-        </a>
+        </Link>
       </div>
     </>
   );
