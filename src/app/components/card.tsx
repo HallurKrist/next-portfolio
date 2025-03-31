@@ -11,7 +11,7 @@ export default function Card(props: {
   tags: string[];
   link: string;
 }) {
-  const Picture = require("@/../public/" + props.path);
+  const Picture = "@/../public/" + props.path;
   return (
     <>
       <Link

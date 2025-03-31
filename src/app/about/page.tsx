@@ -1,6 +1,5 @@
 import Header from "@/app/components/header"
 import Image from "next/image";
-import Link from "next/link";
 import Placeholder from "@/../public/placeholder.jpg";
 import hallur1 from "@/../public/HikingHallur.jpg";
 import hallur2 from "@/../public/RaaftingHallur.jpg";
@@ -24,7 +23,7 @@ export default function About() {
         <div className="flex flex-col md:px-0 px-4">
           <h1 className=" text-4xl mb-5 font-bold ">Hello World! 👋🌍</h1>
           <p>
-            Write some stuff about me.
+          Passionate and skilled game programmer with a strong foundation in game development, quality assurance, and software engineering. Currently completing a Master’s degree in Games (Technology Track) at IT University of Copenhagen, graduating in June 2025. Experienced in game programming, AI systems, graphics, and testing methodologies. Worked as a QA intern at SYBO Games, contributing to the quality and stability of Subway Surfers. Has a keen interest in game design methodologies, having explored how early game prototypes refine both the final game and the development process in a master’s thesis. Adept at problem-solving, debugging, and collaborating with multidisciplinary teams. Seeking a role as a game developer or tester to apply technical expertise and analytical skills to innovative projects.
           </p>
           <div
             className={`flex p-1 px-2 mb-4 bg-white rounded-md mt-6 mr-auto `}
