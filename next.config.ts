@@ -6,7 +6,7 @@ const nextConfig = {
     NEXT_PUBLIC_TEMPLATE_ID: process.env.NEXT_PUBLIC_TEMPLATE_ID,
   },
   reactStrictMode: true,
-  webpack: (config) => {
+  webpack: (config: any) => {
     config.module.rules.push({
       test: /\.pdf$/,
       use: {
