@@ -2,6 +2,9 @@ import Header from "@/app/components/header"
 import Image from "next/image";
 import Link from "next/link";
 import Placeholder from "@/../public/placeholder.jpg";
+import hallur1 from "@/../public/HikingHallur.jpg";
+import hallur2 from "@/../public/RaaftingHallur.jpg";
+import hallur3 from "@/../public/TravelHallur.jpg";
 
 export default function About() {
   return (
@@ -9,11 +12,11 @@ export default function About() {
     <Header></Header>
       <div className="text-white py-16 flex gap-16" id="about">
         <div className="md:grid  grid-cols-2  [&>*]:rounded-xl [&>*]:border-solid gap-4 [&>*]:border-2 [&>*]:border-white h-0 hidden  ">
-          <Image className="" src={Placeholder} alt="" width={660}></Image>
-          <Image className="" src={Placeholder} alt="" width={660}></Image>
+          <Image className="" src={hallur1} alt="" width={660}></Image>
+          <Image className="" src={hallur2} alt="" width={660}></Image>
           <Image
             className="col-span-2"
-            src={Placeholder}
+            src={hallur3}
             alt=""
             width={660}
           ></Image>
