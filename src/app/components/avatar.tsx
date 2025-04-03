@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Profile from "@/../public/hallur_hiking.jpg";
+import Profile from "@/../public/UopClose.jpg";
 import Link from "next/link";
 
 export default function Avatar(props: { collapsed: boolean }) {
@@ -10,8 +10,8 @@ export default function Avatar(props: { collapsed: boolean }) {
           <Image
             src={Profile}
             alt=""
-            width={props.collapsed ? 75 : 100}
-            height={props.collapsed ? 75 : 100}
+            width={props.collapsed ? 75 : 200}
+            height={props.collapsed ? 75 : 200}
             className={`ease-in-out duration-300 rounded-full drop-shadow-profile w-${
               props.collapsed ? "5" : "40"
             }`}

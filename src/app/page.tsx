@@ -5,7 +5,6 @@ import Skills from "@/app/components/skills";
 export default function Home() {
   return (
     <div className="HomePage">
-      <Header></Header>
       <Projects></Projects>
       <Skills></Skills>
     </div>
