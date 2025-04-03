@@ -1,4 +1,3 @@
-import Header from "@/app/components/header";
 import Projects from "@/app/components/Projects";
 import Skills from "@/app/components/skills";
 

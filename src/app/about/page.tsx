@@ -1,4 +1,3 @@
-import Header from "@/app/components/header"
 import Image from "next/image";
 import hallur1 from "@/../public/hallur_cat.jpg";
 import hallur2 from "@/../public/OnStairs.jpg";
